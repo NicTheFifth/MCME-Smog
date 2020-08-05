@@ -1,5 +1,5 @@
 name: ${project.artifactId}
-main: com.mcmiddleearth.mcme.pvp.PVPPlugin
+main: com.mcmiddleearth.mcme.baseplugin.BasePlugin
 version: ${project.version}
 authors: [NicoviçTheSixth]
 depend: [WorldEdit]
