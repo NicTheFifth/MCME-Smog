@@ -1,16 +1,16 @@
-package com.mcmiddleearth.mcme.rpgtree;
+package com.mcmiddleearth.mcme.baseplugin;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class RPGTree extends JavaPlugin{
+public class BasePlugin extends JavaPlugin{
 
-    private static RPGTree plugin;
+    private static BasePlugin plugin;
 
     @Override
     public void onEnable(){
-        Logger.getLogger("RPGTree").log(Level.INFO,"RPGTree loaded correctly");
+        Logger.getLogger("BasePlugin").log(Level.INFO,"BasePlugin loaded correctly");
         plugin = this;
     }
     @Override
