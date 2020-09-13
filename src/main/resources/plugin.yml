@@ -1,6 +1,11 @@
 name: ${project.artifactId}
-main: com.mcmiddleearth.mcme.baseplugin.BasePlugin
+main: com.mcmiddleearth.mcme.smog.SmogPlugin
 version: ${project.version}
 authors: [NicoviçTheSixth]
-depend: [WorldEdit]
+depend: []
 api-version: 1.15
+
+commands:
+  smog:
+    description: Smog shiz TODO work on dis shiz
+    usage: /smog <subcommand>
